@@ -5,5 +5,5 @@ from profiles.views import UserProfileView
 
 
 urlpatterns = [
-    url('/me', UserProfileView.as_view()),
+    url('me', UserProfileView.as_view()),
     ]
