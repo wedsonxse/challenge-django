@@ -2,12 +2,7 @@
 
 from django.conf.urls import url
 from user.views import UserRegistrationView
-from user.views import UserLoginView 
-
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
-)
+from user.views import UserLoginView
 
 urlpatterns = [
     url(r'^signup', UserRegistrationView.as_view()),
