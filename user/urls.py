@@ -5,7 +5,7 @@ from user.views import UserRegistrationView
 from user.views import UserLoginView
 
 urlpatterns = [
-    url(r'^signup', UserRegistrationView.as_view()),
-    url(r'^signin', UserLoginView.as_view()),
+    url('signup', UserRegistrationView.as_view()),
+    url('signin', UserLoginView.as_view()),
 
     ]
